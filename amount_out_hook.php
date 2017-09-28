@@ -93,7 +93,6 @@ add_hook('InvoicePaid', 1, function ($vars)
 			$fee = 0;
 		}
 		
-		fwrite($fh, "product fee:".$fee);
 		}
 
         
