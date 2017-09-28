@@ -23,5 +23,5 @@ You need to have WHMCS installed
 
 ### Installing
 
-Step 1: Modify add_fees_hook.php with your configuration of the $tlds and $products variables.
-Step 2: Please add_fees_hook.php in /includes/hooks/ directory of your WHMCS installation
+Step 1: Modify amount_out_hook.php with your configuration of the $tlds and $products variables.
+Step 2: Please amount_out_hook.php in /includes/hooks/ directory of your WHMCS installation
