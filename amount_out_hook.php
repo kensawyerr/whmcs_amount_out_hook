@@ -1,10 +1,10 @@
 <?php
 use Illuminate\Database\Capsule\Manager as Capsule;
 /**
- * Add fees to invoices when they have been marked as paid.
+ * Add expenditure to invoices when they have been marked as paid.
  *
  * Developer: sawyerrken (sawyerrken@gmail.com)
- * Github: https://github.com/sawyerrken/whmcs_fees_hook
+ * Github: https://github.com/sawyerrken/whmcs_amount_out_hook
  */
 
 	
