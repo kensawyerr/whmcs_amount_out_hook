@@ -84,7 +84,6 @@ add_hook('InvoicePaid', 1, function ($vars)
 		$hosting_details = Capsule::table('tblhosting')->where('id', $row->relid)->first();
 		if(array_key_exists($hosting_details->packageid, $products)){
 			$product_id = $hosting_details->packageid;
-							fwrite($fh, "product id:".$product_id);
 
 			$fee = $products[$product_id];
 
