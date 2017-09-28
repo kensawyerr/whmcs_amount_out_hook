@@ -42,13 +42,13 @@ add_hook('InvoicePaid', 1, function ($vars)
 	*/
 
     //TLDs array in the format tld=>cost
-    //the TLDs should be in lowercase
+    //the TLDs should be in lowercase. Configure as many TLDs as you have
     $tlds = array(
-        ".com" => "3600",
-        ".net" => "35"
+        ".com" => "10",
+        ".net" => "12"
     );
 
-    //products array in the format product_id => cost
+    //products array in the format product_id => cost. Configure as many product IDs as you have on your WHMCS
     $products = array(
         "14"=>"30",
         "20"=>"45"
