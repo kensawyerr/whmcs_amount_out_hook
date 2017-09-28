@@ -1,4 +1,4 @@
-# whmcs_fees_hook
+# WHMCS Hook: Amount Out
 Add your configured fees/expenses to WHMCS invoices after they are paid. This way you can have accurate records in your monthly transactions that will show your running cost and your profit.
 
 
@@ -24,4 +24,5 @@ You need to have WHMCS installed
 ### Installing
 
 Step 1: Modify amount_out_hook.php with your configuration of the $tlds and $products variables.
-Step 2: Please amount_out_hook.php in /includes/hooks/ directory of your WHMCS installation
+
+Step 2: Place amount_out_hook.php in /includes/hooks/ directory of your WHMCS installation
