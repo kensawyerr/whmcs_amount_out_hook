@@ -1,5 +1,5 @@
 # whmcs_fees_hook
-Add your configured fees to WHMCS invoices when they are paid. This way you can have accurate records in your monthly transactions that will show your running cost and your profit.
+Add your configured fees/expenses to WHMCS invoices after they are paid. This way you can have accurate records in your monthly transactions that will show your running cost and your profit.
 
 
 ## Getting Started
