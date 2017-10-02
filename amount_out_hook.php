@@ -68,7 +68,7 @@ add_hook('InvoicePaid', 1, function ($vars)
     //go through each invoice item in the invoice and get the type of service
     foreach(Capsule::table('tblinvoiceitems')->where('invoiceid', $invoice_id)->get() as $row){
 
-        if($row->type == "DomainTransfer" || $row->type=="DomainRegister"){
+        if($row->type == "DomainTransfer" || $row->type=="DomainRegister" || $row->type=="Domain"){
                 $domain_details = Capsule::table('tbldomains')->where('id', $row->relid)->first();
                 $tld = strtolower(sk_get_tld($domain_details->domain));
                 if(array_key_exists($tld, $tlds)){
